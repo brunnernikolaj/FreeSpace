@@ -3,7 +3,7 @@ FreeSpace
 
 A program for freeing hard disk space
 
-![alt text](http://imgur.com/0ldzzwJ)
+![alt text](http://imgur.com/0ldzzwJ.png "Program start page")
 
 #Controls:
 
