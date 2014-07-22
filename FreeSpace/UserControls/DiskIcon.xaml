@@ -1,0 +1,21 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="FreeSpace.DiskIcon"
+	x:Name="UserControl"
+	d:DesignWidth="200" d:DesignHeight="200" Width="250" Height="300">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid>
+			<TextBlock x:Name="DiskNameText" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="18.667" Foreground="Black" FontFamily="Microsoft JhengHei UI"/>
+			<TextBlock x:Name="DiskUsageText" Margin="0,188.417,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="14.667" TextAlignment="Center"/>
+			<Image Margin="25,23.504,25,107.333" Source="Images/harddrive.png" Stretch="Fill" Cursor="Hand"/>
+		</Grid>
+		<Border BorderBrush="#FD2F2B2C" BorderThickness="1,1,1,0" HorizontalAlignment="Center" Height="9.666" Margin="45,171.337,45,0" VerticalAlignment="Top" Width="160">
+			<Rectangle x:Name="PercentRect" Fill="#FFADF3AD" HorizontalAlignment="Left" Height="7.792" Margin="0,0.437" Stroke="Black" VerticalAlignment="Center" Width="158.917" StrokeThickness="0"/>
+		</Border>
+	</Grid>
+</UserControl>
