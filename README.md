@@ -4,7 +4,7 @@ FreeSpace
 A program for freeing hard disk space
 
 
-Controls:
+#Controls:
 
 LMouseButton : Open folder
 RMouseButton : GoTo parent folder
